@@ -5,7 +5,7 @@
 ### Run this code:
     git clone https://github.com/DipankarAOT/Travel-Booking_Website.git
     cd Travel-Booking_Website
-    npm staet
+    npm start
 
 ### Diploy the Code
     npm run build
