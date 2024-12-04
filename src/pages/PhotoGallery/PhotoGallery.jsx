@@ -5,7 +5,7 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 
 const PhotoGallery = () => {
   useEffect(() => {
-    document.title = " gallery   ";
+    document.title = " Gallery   ";
     window.scroll(0, 0);
   }, []);
 
