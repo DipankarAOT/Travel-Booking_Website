@@ -8,7 +8,7 @@ import Footer from "./components/Common/Footer/Footer";
 import Tours from "./pages/Tours/Tours";
 import TourDetails from "./pages/Tours/TourDetails";
 import Booking from "./pages/Booking/Booking";
-
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -22,9 +22,7 @@ function App() {
         <Route path="/tours" element={<Tours />} />
         <Route path="/tour-details" element={<TourDetails />} />
         <Route path="/booking" element={<Booking />} />
-        
-
-        
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </>
@@ -32,3 +30,4 @@ function App() {
 }
 
 export default App;
+
